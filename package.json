@@ -1,0 +1,29 @@
+{
+  "name": "biograph-backend",
+  "version": "1.0.0",
+  "description": "GraphQL back end for this project Test",
+  "main": "server.js",
+  "scripts": {
+    "test": "exit 0",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BioGraphQL-Innovators/BackEnd.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BioGraphQL-Innovators/BackEnd/issues"
+  },
+  "homepage": "https://github.com/BioGraphQL-Innovators/BackEnd#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
