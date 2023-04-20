@@ -14,4 +14,7 @@ connect(DB_HOST, {
     console.error(`ERROR 500 || ${err.message}`);
   });
 
-// Model
+// Load Models
+require('../models/User');
+require('../models/VitalSign');
+require('../models/Alert');
